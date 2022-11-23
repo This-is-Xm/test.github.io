@@ -8,16 +8,16 @@ p{background-color:#30F;font-family:"微软雅黑"; font-size:30px; color:red;}
 .two{ background:#6FF; color:#F00; letter-spacing:-2px; text-indent:4em;}
 .three{ text-indent:50px;line-height:20px}
 </style>
-<script>
-var arr = ["太阳光大","成功是优点的发挥","不要小看自己", "口说好话","手心向下是助人" ]; 
-var index = Math.floor((Math.random()*arr.length)); 
-document.write(arr[index]); 
-</script>
+
 </head>
 
 <body>
 <p class="one">欢迎来到验证页面，您的手机号码有效</p>
-<p class="two">请将上方的数字输入验证码框中即可登录</p>
-
+<p class="two">将下方的文字输入验证码框中即可登录</p>
+<script>
+var arr = ["安居乐业","风调雨顺","国泰民安","时和年丰","五谷丰登","祥风时雨" ]; 
+var index = Math.floor((Math.random()*arr.length)); 
+document.write('<font align="center" color="red" size="27";>'+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+arr[index]+'</font>'); 
+</script>
 </body>
 </html>
